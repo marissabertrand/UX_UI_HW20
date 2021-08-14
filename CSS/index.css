@@ -1,0 +1,170 @@
+/*--Section Formatting--*/
+body{
+    background-color: #E1D3D4;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+/*--------*/
+
+/*Header*/
+.HeaderGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+.HeaderGrid .logo{
+    height: 100px;
+    padding-left: 50px;
+    position: relative;
+    background-color: black;
+    display: block;
+    justify-content: flex-start;
+}
+.HeaderGrid .logo #logoName{
+    color: #BF80AE;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0 auto;
+    padding-top: 10px;
+    max-height: 54px;
+}
+.HeaderGrid .logo #logoTitle{
+    color: #BF80AE;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0 auto;
+    max-height: 29px;
+}
+.HeaderGrid .logo #logoPageName{
+    color: #BF80AE;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 375px;
+}
+.HeaderGrid .menu{
+    height: 100px;
+    padding-right: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.HeaderGrid .menu a{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+/*--------*/
+
+/*Body*/
+.body {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 75px auto;
+    background-color: #D9A3A3;
+    height: 75%;
+    width: 85%;
+}
+.ExecSum{
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Open-sans', sans-serif;
+    font-size: 18px;
+}
+#ExecSumHead{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    font-size: 26px;
+    padding-bottom: 1%;
+}
+.accordion{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+.card-header{
+    background-color: #E1D3D4;
+}
+.card-body{
+    background-color: #D9A3A3;
+}
+.btn.btn-link{
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+}
+.WPBPAffinityMap{
+    height: auto;
+    width: 75%;
+    margin-left: 12%;
+    margin-right: 10%;
+}
+.WPBPUserInsight{
+    display: block;
+    height: auto;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.WPBPSitemap{
+    display: block;
+    height: auto;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.WPBPRedesign{
+    display: block;
+    height: auto;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Footer*/
+.FooterGrid{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+.FooterGrid #copyName{
+    height: 50px;
+    padding-left: 50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.FooterGrid .externalLinks{
+    height: 50px;
+    padding-right: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.FooterGrid .externalLinks a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 20px;
+}
+/*--------*/
